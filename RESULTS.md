@@ -52,8 +52,8 @@ Seven doctoral students wrote essays about thinking over 5 days. On Day 2, each 
 ![Displacement Distribution](plots/figure_displacement_distribution.png)
 *Figure: Distribution of displacement magnitudes by source*
 
-![Displacement Violin](plots/figure_displacement_violin.png)
-*Figure: Summary statistics (mean step size, variance, max jump)*
+![Displacement Violin](annex_figures/displacement_violin.pdf)
+*Figure: Summary statistics (mean step size, variance, max jump). See [Annex Table](annex_figures/displacement_summary_table.tex) for LaTeX-formatted version.*
 
 **Summary Statistics:**
 
@@ -109,8 +109,12 @@ Human essays show slightly larger steps and more variation, but differences are 
 
 ### Homogeneity (Inter-Essay Similarity)
 
-![Figure 4: Homogeneity Matrix](plots/figure4_homogeneity_matrix.png)
+<!-- ![Figure 4: Homogeneity Matrix](plots/figure4_homogeneity_matrix.png) -->
+
+**Alternative visualization**: 
+![Figure 4: Homogeneity Matrix](annex_figures/similarity_matrix_no_diagonal.png)
 *Figure 4: Pairwise trajectory similarity (cosine). Essays grouped by source. Darker = more similar.*
+Emphasizes off-diagonal patterns by setting vmax to the maximum off-diagonal value rather than 1.0.
 
 **Method**: Each trajectory interpolated to 20 points, flattened to a 7,680-dimensional vector (20 positions × 384 embedding dimensions), then pairwise cosine similarity computed between all essay pairs.
 
