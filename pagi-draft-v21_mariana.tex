@@ -1,0 +1,557 @@
+\documentclass{article}
+\usepackage{iclr2026_conference,times}
+\input{math_commands.tex}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+
+\title{Thinking About Thinking With Machines That Think}
+\author{Anonymous authors\\Paper under double-blind review}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Intellectual work increasingly occurs in settings where large language models (LLMs) can produce competent text across a wide range of tasks. We argue that the central design problem is not capability but the preservation of plurality: sustaining individual perspective, judgment, and authorship in human–AI collaboration. Building on the view of LLMs as simulators (janus, 2022; Shanahan et al., 2023), we treat model outputs as samples from a latent distribution over possible authorial personae that is further shaped, in deployment, by post-training into a dominant assistant mode. We characterize process flattening as a failure of the developing scientific persona: the scholar’s constructed capacity to differentiate their own epistemic commitments from the statistical consensus of the training distribution. In the absence of directed steering, output regresses toward the distribution’s central tendency, thereby bypassing the developmental friction through which an independent scholarly identity is ordinarily forged. We analyze these dynamics in a prototype doctoral intensive in which neuroscience PhD students (N=7) wrote essays on thinking with AI at every stage. Using a blind-prompt protocol that records intentions before process begins and compares what the process produced against the model’s best output from the same frozen seed, we document differences in how participants narrowed the output space and committed to positions in ways attributable to individual judgment. We argue that effective collaboration is reciprocal: humans supply selection and commitment, while AI extends search and synthesis; decomposition is therefore required not to protect human relevance but because the combined system depends on it.
+\end{abstract}
+
+\section{Introduction}
+We consider intellectual work in settings where large language models can produce competent drafts for a wide range of tasks specified in natural language. Under these conditions, the central question is not whether AI can generate high-quality text, but how intellectual practice can preserve plurality—i.e., the continued production of distinct, attributable positions grounded in individual judgment.
+
+Rather than offering a forecast of capability trajectories, we advance a normative claim: the most desirable form of human–AI collaboration is one in which human perspectives remain structurally present in intellectual work. Because a model can generate plausible text for many stances, competence alone does not secure authorship; without mechanisms for selection and commitment, outputs are best understood as samples from a latent distribution over possible authorial personae that belong to no one in particular. Intellectual ecosystems, however, depend on attributable positions—perspectives that are situated and answerable—because this is where substantive diversity and disagreement arise.
+
+While this problem is often framed in terms of output quality, the deeper imperative is the structural preservation of the scientific persona. We posit that this persona is not an inherent trait but a disciplined construction, forged through the continuous friction of selecting one intellectual path over another and differentiating one’s own commitments from the surrounding consensus. By smoothing this friction, unguided model interaction risks implicitly supplanting the developmental conditions through which students transition from consumers of knowledge to architects of it. We use “process flattening” to denote the corresponding failure mode, in which intellectual work loses its structure and interaction regresses toward generic, high-probability discourse that is increasingly difficult to attribute to any particular perspective. Following Messeri and Crockett’s (2024) warning about “monocultures of knowing,” we argue that as AI mediates more intellectual production, deliberate decomposition of work into stages that require decision and commitment becomes increasingly important.
+
+We develop the argument through a prototype one-week doctoral intensive in which neuroscience PhD students (N=7) wrote essays about thinking with AI present throughout their process. The course serves as a testbed for a form of graduate pedagogy that post-capability conditions may make increasingly common: AI as subject matter, tool, and methodological constraint simultaneously. Participants were given advanced LLM interfaces with minimal restrictions and a demanding task; the resulting essays exhibited substantial divergence in approach and position, even under shared tools and a common protocol.
+
+This paper makes three contributions. First, we articulate a decomposition principle: structured stages create explicit decision points at which participants must select among alternatives and commit to positions, rather than allowing the interaction to resolve by default. Second, we introduce the blind prompt method, a capability-agnostic instrument for measuring divergence between a model’s default resolution from an underspecified seed and the output produced after structured process. Third, we provide qualitative evidence from the intensive (N=7) that structuring the work to preserve plurality yields substantive divergence in approach and position rather than convergence to a common assistant-like baseline.
+
+\section{Key Concepts (Summary)}
+Most widely available tools are post-trained on top of base models (Ouyang et al., 2022; Bai et al., 2022), yielding stable interaction patterns that can resemble agency. Following the simulator framing (janus, 2022; Shanahan et al., 2023), these systems can also be understood as sampling from a latent distribution over possible authorial personae. Post-training makes one region of that distribution dominant: the assistant mode.
+
+\paragraph{Process flattening.}
+In ordinary use, the assistant mode is often helpful but centripetal: it tends to resolve underspecified intellectual tasks into coherent, consensus-shaped prose. When this resolution substitutes for a person’s own direction-setting and evaluative judgment, intellectual work can become increasingly hard to attribute. We use \emph{process flattening} to name this failure mode: the work loses visible decision structure and drifts toward generic, high-probability discourse.
+
+\paragraph{Narrowing vs.\ commitment.}
+We distinguish two processes in collaboration. \emph{Narrowing} refers to the progressive constraint of the model’s conditional distribution as context accumulates; each prompt, response, and selected source reduces the range of plausible continuations. \emph{Commitment} is a human act: selecting a direction from the narrowed space, endorsing it as one’s position, and accepting responsibility for it. Narrowing can proceed without commitment, producing consistent but weakly owned text.
+
+\paragraph{Decomposition as control.}
+Decomposition divides the work into identifiable stages (e.g., generating, gathering, organizing, critiquing, and refining) and performs them in distinct modes (solo, peer, AI-assisted). Staging creates explicit decision points where participants must select among alternatives and make commitments legible. It also enables deliberate oscillation between broadening (exploration, challenge) and narrowing (thesis choice, revision). Different people will decompose differently, and this variability is desirable because it is one route by which individual judgment enters the coupled system.
+
+\paragraph{Beyond pedagogy.}
+Default convergence is not only a student-writing concern. Jiang et al. (2025) document homogeneity and convergence across language models. At the ecosystem level, evidence suggests that AI tools can increase individual productivity while narrowing the diversity of research directions (Gao et al., 2025). If AI outputs increasingly enter future training data, assistant-mode conventions may be recursively amplified, further increasing the importance of preserving plurality by design.
+
+These concepts motivate a reciprocal division of labor: AI extends search, synthesis, and linguistic realization; humans extend the coupled system by selecting among alternatives and committing. The full theoretical development is provided in Appendix C.
+
+\section{The Blind Prompt Method}
+The blind prompt method operationalizes divergence between a model’s default resolution from an underspecified seed and the output produced after structured human–AI process. The protocol comprises four stages:
+
+\begin{enumerate}
+\item Intention capture. Before structured work begins, participants were asked to describe the output they wanted AI to produce (topic, provisional thesis, candidate arguments, candidate references). The description was recorded and not executed at that time.
+\item Structured process. Participants completed the intensive’s staged activities; as context accumulated, the interaction progressively constrained the model’s distribution and participants encountered repeated decision points at which commitment could be formed.
+\item Baseline generation. At the end of the week, the frozen description was submitted to the model with a standardizing addendum (Appendix A) instructing the system to interpret the seed generously and produce the strongest possible essay. Because the seed lacks the intermediate context generated during the week, the resulting output tends to reflect the model’s default assistant mode and to regress toward generic, high-probability discourse.
+\item Comparison. The baseline output was compared against the participant’s final essay; the gap provides an estimate of what the structured process contributed beyond default resolution.
+\end{enumerate}
+
+The method is capability-agnostic in the sense that it becomes more informative as models improve, revealing which dimensions of commitment persist at each capability level. It is parameterizable: future iterations can provide AI with information retrieval, isolating commitment from information access. Finally, it tracks a boundary that is expected to shift as systems and interfaces change.
+
+\section{Findings from the Intensive (Summary)}
+Seven neuroscience PhD students completed a five-day intensive designed to alternate between broadening (exploration, peer discussion, AI-assisted search) and narrowing (solo writing, outline commitment, revision). The detailed design and qualitative observations are provided in Appendix D.
+
+\paragraph{Design.}
+Day 1 began with handwritten solo ideation (no AI) to ensure each participant started from a human-originated direction. Day 2 used AI-assisted research and recorded a frozen ``blind'' description of the essay the student wanted AI to write. Days 3--4 developed structure and drafted, alternating peer interaction, solo work, and AI-assisted critique. Day 5 executed the Day-2 seed with a standardizing metaprompt (Appendix A) to produce a one-shot baseline for comparison with the final essay.
+
+\paragraph{Between-participant divergence.}
+Across participants, the most salient variation was not how often AI was used but how narrowing was steered. Some participants used AI primarily for broad literature search while keeping thesis formation and evaluation largely human; others used AI continuously but reported that critique and evaluative judgment were the activities in which the system contributed least. Several participants experienced a tension between conventional norms of objectivity and the practical need to assert perspective to steer the model; one described it as ``contradictory to be more subjective to get better science.''
+
+\paragraph{Within-participant divergence.}
+Staged work produced commitments that were not recoverable from one-shot baselines generated from frozen early seeds. In one illustrative case, Participant A began with an authorship question but lacked a central tension in the frozen seed. Through broad AI exploration, human outlining, and contextual AI critique, A converged on an organizing thesis about intention and reconstruction in LLM output. The one-shot baseline did not recover the same argument; it converged toward a more generic treatment and exhibited weak epistemic grounding (including fabricated citations).
+
+\paragraph{Distribution management.}
+Participants developed strategies for managing the default assistant mode by deliberate role conditioning (e.g., ``as a Nature reviewer'') and by eliciting adversarial feedback (e.g., simulated comment threads). These interventions can be understood as conditioning the model to sample different regions of its latent distribution rather than repeatedly drawing from the same default assistant region.
+
+\section{Discussion (Summary)}
+This paper does not claim that structured human process produces ``better'' text than AI alone by external quality metrics. It argues that preserving plurality requires process designs that keep selection and commitment structurally present in intellectual work.
+
+\paragraph{Modes of flattening.}
+Process flattening has more than one mode: wholesale delegation, and premature narrowing in which interaction becomes self-consistent but default assistant gradients dominate. Decomposition provides a structural defense by creating repeated decision points and by enabling deliberate modulation of narrowing.
+
+\paragraph{Default commitment.}
+Because post-trained assistants are optimized for coherence and helpfulness, default outputs can be competent while remaining weakly attributable: they are not optimized to reflect a single agent’s epistemic ownership. This suggests that the key collaboration skill is not merely prompting for good prose but structuring work so that human commitments remain causally and visibly responsible for the trajectory.
+
+\paragraph{Against prescriptive workflows.}
+Decomposition is itself an analytic activity, and different people will decompose differently. Standardized institutional responses risk imposing uniform workflows that further compress plurality. A more robust goal is to teach navigation: when to broaden, when to narrow, when to delegate, and when to withhold delegation so that commitment is formed rather than sampled by default.
+
+The full discussion, including implications for pedagogy and the default commitment profile induced by post-training, is provided in Appendix E.
+
+\paragraph{Limitations.}
+N=7 is a proof of concept rather than a population finding. Future iterations should provide AI with retrieval to isolate commitment from information access and include controls comparing decomposition against unstructured extended engagement.
+
+\typeout{MAIN_TEXT_END_PAGE=\thepage}
+\section*{References}
+Bai, Y. et al. (2022). Constitutional AI: harmlessness from AI feedback. arXiv:2212.08073.
+
+Clark, A. \& Chalmers, D. (1998). The extended mind. Analysis, 58(1), 7–19.
+
+Clark, A. (2025). Extending minds with generative AI. Nat. Commun., 16, 4627.
+
+Daston, L. \& Galison, P. (2007). Objectivity. Zone Books.
+
+Dennett, D. C. (1992). The self as a center of narrative gravity. In Self and Consciousness. Erlbaum.
+
+Flower, L. \& Hayes, J.R. (1981). A cognitive process theory of writing. CCC, 32(4), 365–387.
+
+Gao, J., Cheng, B., Wang, J., Li, J., Liu, B. \& Wang, D. (2025). Artificial intelligence tools expand scientists' impact but contract science's focus. Nature. https://doi.org/10.1038/s41586-025-09922-y
+
+janus. (2022). Simulators. LessWrong.
+
+Jiang, L., Chai, Y., Li, M., Liu, M., Fok, R., Dziri, N., Tsvetkov, Y., Sap, M., Albalak, A. \& Choi, Y. (2025). Artificial hivemind: The open-ended homogeneity of language models (and beyond). NeurIPS 2025. arXiv:2510.22954.
+
+Messeri, L. \& Crockett, M.J. (2024). AI and illusions of understanding in scientific research. Nature, 627, 49–58.
+
+Ouyang, L. et al. (2022). Training language models to follow instructions with human feedback. NeurIPS, 35, 27730–27744.
+
+Shanahan, M., McDonell, K. \& Reynolds, L. (2023). Role play with large language models. Nature, 623, 493–498.
+
+\appendix
+
+\section{Appendix A: The Standardizing Metaprompt}
+\begin{verbatim}
+## The Metaprompt
+
+```
+The text above is a student's description of an essay they want to write for a course called "Thinking: From Humans to Animals to Machines." The course explores what thinking is, how it works across humans, animals, and AI, and what role AI tools play in intellectual work.
+
+Your job is to write the best possible version of THE ESSAY THE STUDENT DESCRIBED. Their topic, angle, and direction are yours — write the essay they were reaching toward, not a different one. But within that direction, bring everything you can: relevant evidence, theoretical frameworks, counterarguments, concrete examples, and any ideas that strengthen the argument. If their description is vague, interpret it generously and develop the strongest version of what they seem to be reaching toward. If their description is detailed, honor their specific direction and build on it.
+
+Write a complete, polished essay of 1000–1500 words.
+
+Guidelines:
+
+- **Direction**: The essay must pursue the student's topic and angle. Do not substitute a different thesis or reframe the question, even if you think another angle is stronger. Develop the strongest version of THEIR argument.
+
+- **Argument**: The essay must make a clear, specific, defensible argument — not just survey a topic. If the student describes a topic without a thesis, develop the strongest thesis consistent with the direction they indicate.
+
+- **Structure**: Choose whatever structure best serves this particular argument. You may use a conventional academic structure or depart from it. The goal is a compelling, well-organized piece of writing.
+
+- **Evidence and citations**: Support claims with evidence. Cite real academic sources where possible (author, year, and a brief description of the finding or argument). If uncertain about a specific citation detail, include your best understanding rather than omitting it, but do not fabricate authors or papers wholesale.
+
+- **Counterarguments**: Address the strongest objection to the thesis. A good essay takes the opposition seriously.
+
+- **Voice**: Write in clear, confident academic prose. Avoid hedging and filler.
+
+- **Scope**: The course covers cognition broadly — human thought, animal cognition, AI and machine learning, philosophy of mind, neuroscience, extended cognition, embodied cognition. Draw on whatever domains are relevant.
+
+Do not comment on the student's prompt or explain what you're doing. Just write the essay.
+```
+\end{verbatim}
+
+\section{Appendix B: Participant Diversity}
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{p{0.12\linewidth} p{0.27\linewidth} p{0.53\linewidth}}
+\toprule
+\textbf{Participant} & \textbf{Essay topic} & \textbf{AI use pattern} \\
+\midrule
+A & Whose thoughts are an LLM's thoughts? & Broad AI research to solo skeleton to contextual AI critique to simulated blog comments for adversarial feedback \\
+B & Multiscalar architecture of cognition & Heavy AI use; multiple models \\
+C & Social construction of thinking & AI as "Nature reviewer"; process reflection \\
+D & Sense of self and thinking & Valued solo ideation; AI for research \\
+E & Split-brain and parallel thought & Cognitive science lens; minimal AI docs \\
+F & Machine thinking / AI cognition & Varied approach \\
+G & Machine thinking / AI cognition & Varied approach \\
+\bottomrule
+\end{tabular}
+\caption{Participant topics and AI use patterns.}
+\end{table}
+
+\section{Appendix C: Extended Theoretical Framework}
+\subsection{The Epistemic Function of Writing}
+Despite repeated technological shifts, science is still communicated, evaluated, and advanced primarily through written arguments reviewed by human readers. The paper remains the unit of scientific contribution. Writing is among the most integrative components of intellectual work, requiring the coordination of direction-setting, evidence evaluation, argument construction, and revision in ways that can reshape what the writer thinks (Flower \& Hayes, 1981). Our participants described this function directly: “Writing helped me create concrete thoughts—it helped me go slower and create concepts.”
+
+Writing also makes commitment observable. A human author selects a direction, chooses what to count as evidence, and decides how to warrant a claim; these choices yield an attributable position that can be evaluated and contested. By contrast, an LLM can produce a fluent, well-structured paper whose authorial stance is weakly attributable, because it is sampled from a distribution over possible voices rather than selected and owned by a responsible agent. An ecosystem dominated by such weakly attributable outputs would reduce the supply of distinct, accountable perspectives on which substantive diversity and disagreement depend.
+
+\subsection{LLMs as Simulators in Collaboration}
+The AI systems students interact with are rarely neutral next-token predictors. Most widely available tools are post-trained on top of base models using reinforcement learning from human feedback, constitutional AI methods, and related objectives (Ouyang et al., 2022; Bai et al., 2022), which yields stable interaction patterns that can resemble agency (e.g., persistent “helpfulness,” guideline adherence, and multi-step planning). At the same time, following the simulator framing (janus, 2022; Shanahan et al., 2023), these systems can be understood as drawing from a latent distribution over possible authorial personae. Post-training makes one region of that distribution dominant: the assistant mode. Outside carefully constructed contexts, interaction therefore tends to sample from this dominant mode, producing coherent and competent text without strong epistemic commitment or identifiable authorship. This dynamic also contributes to homogeneity across systems; Jiang et al. (2025) document both intra-model repetition and inter-model convergence across more than 70 language models.
+
+We distinguish two processes in human–AI collaboration: narrowing and commitment. Narrowing refers to the progressive constraint of the model’s conditional distribution as context accumulates; each prompt, response, and retrieved fact reduces the range of continuations consistent with the interaction. In post-trained systems, this constraint is largely automatic and typically moves toward the default assistant mode unless the interaction is deliberately steered. Commitment, by contrast, is a human act: selecting a direction from the narrowed space, endorsing it as one’s position, and accepting responsibility for it. Narrowing is therefore necessary but not sufficient for commitment, since the interaction can become highly constrained while still resolving to a generic assistant-like response; conversely, commitment can be formed early and refined through subsequent interaction.
+
+Whether the output reflects a committed position or a default resolution depends on who steers narrowing. When a student supplies their own structure (e.g., an outline), selects which AI-surfaced sources to pursue, and decides which tensions to develop, the interaction is constrained toward the student’s developing perspective. In unstructured delegation, the conversation still becomes self-consistent context for further responses, but the trajectory is set by the assistant’s default gradients rather than the student’s intellectual direction. Effective collaboration therefore requires knowing when to use the assistant mode as a locally useful collaborator and when to recondition the model with alternative contexts that access different regions of its latent distribution.
+
+\subsubsection{Autonomous AI and the future of science}
+Post-training, particularly reinforcement learning, can create systems capable of sustained autonomous intellectual work. Agentic frameworks can also be used to condition models into different roles across subtasks, thereby sampling from a broader range of behaviors than a single default assistant mode. For autonomous AI science, the central concern is what shapes the directions such systems pursue, including whether their navigation of the model’s distribution reflects epistemic goals or merely replicates training-data patterns of what “AI doing science” looks like. This concern is made urgent by emerging evidence that AI-augmented research, while boosting individual productivity, can collectively narrow scientific focus and reduce the diversity of research directions (Gao et al., 2025). In addition, because model outputs increasingly enter the training data of future models, the characteristic patterns of today’s assistants, and of today’s AI-assisted science, may be propagated into the distributions that future users and future AI agents draw from.
+
+This recursive flattening of the distribution complicates the traditional pedagogical ideal of objectivity, which many students internalize as the minimization of the self (Daston \& Galison, 2007). Since the model already functions as a detached aggregate consensus, approximating a “view from nowhere,” the human role paradoxically shifts: resisting probabilistic drift toward generic discourse requires the assertion of a disciplined subjectivity, in which a scientific persona is sufficiently developed to impose characterological constraints on the model’s default distribution.
+
+\subsection{Decomposition and Decision Points}
+By decomposition we mean dividing intellectual work into identifiable activities (e.g., generating, gathering, organizing, critiquing, and refining) and performing them in distinct modes, such as solo work, peer interaction, or AI-assisted work. We argue that decomposition is a mechanism for producing commitment because it makes decision points explicit and recurrent.
+
+In a single-step workflow, there is only one moment at which a person can select a direction and take responsibility for it. In a staged workflow, each stage introduces additional decisions that reflect the participant’s developing perspective. When stages conflate, these decision points collapse into fewer opportunities to steer narrowing away from default resolution and toward an attributable position.
+
+Decomposition also enables deliberate modulation of the rate and direction of narrowing. Some stages are designed to accelerate narrowing toward commitment (e.g., solo writing that forces the student to decide what they think). Others are designed to broaden the space of alternatives, such as peer discussion that introduces perspectives the student had not considered or deliberate reconditioning of the model with alternative contexts that sample different regions of its distribution. Effective collaboration requires navigating this oscillation between broadening and narrowing.
+
+Decomposition should be treated as an analytic activity tailored to the person and the task. Different people will decompose differently, and this variability is desirable because it creates space for individual judgment to enter the process. Given the mutability of AI systems across products and over time, this is not a one-time calibration but an ongoing navigation skill that becomes more important as the technology transforms.
+
+\subsection{Reciprocal Extension in Human–AI Work}
+Clark and Chalmers (1998) argued that cognition extends beyond the skull into tools and environments. Clark (2025) updated this for generative AI. Our participants spontaneously invoked the framework: "Thinking with my AI is a thinking process. It is an extension of my mind." Another: "If my memory is stored on a cloud and my logic is assisted by a Large Language Model, the 'substrate' of my thinking is now global and non-biological."
+
+Extended-mind accounts often emphasize a one-directional relation in which humans recruit tools and thereby become more capable. We instead emphasize reciprocity mediated by narrowing and commitment. AI can extend human cognition by expanding search, synthesis, and linguistic realization beyond any individual’s unaided capacity; humans can extend AI by selecting among alternatives, imposing constraints, and committing to positions in ways that make the resulting output attributable. On this view, the essays produced through structured process articulate positions that are not merely sampled from a model’s distribution but formed through a coupled system in which human decisions supply epistemic ownership that default assistant-mode sampling does not provide.
+
+Reciprocity also entails mutual constraint. AI responses shape subsequent human thought by foregrounding some possibilities and suppressing others, and human prompts shape the model’s conditional distribution by eliciting some continuations and suppressing others. In productive collaboration, this coupling is deliberately steered; in unstructured interaction, it tends to follow the path of least resistance toward default resolution.
+
+Removing the human contribution does not only disadvantage the human; it removes selection and commitment, leaving narrowing unsteered and the coupled system producing less than it could.
+
+\section{Appendix D: Extended Intensive}
+\subsection{Design}
+Seven neuroscience PhD students (Participants A–G) completed a five-day intensive. The goal was to learn to think with AI by writing an essay about what thinking is.
+
+Day 1 consisted of solo ideation with no AI (handwritten only). Day 2 focused on AI-assisted research and recorded the blind description. Day 3 developed argument structure with peers and AI. Day 4 was dedicated to drafting, with a morning block without AI and an afternoon block with AI. Day 5 executed the Day 2 description to generate the baseline output and compared it against the final essay.
+
+Day 1 was designed to ensure that participants began the week with a direction of their own rather than starting from an assistant-generated framing. One participant noted that the constraint of solo writing was the primary condition under which they questioned their own axioms, a process that immediate model engagement would have foreclosed. Without an initial direction, collaboration tends to leave narrowing unsteered, and the participant learns to delegate rather than to think with the system.
+
+\subsection{Within-individual divergence}
+Participant A entered Day 2 with prior familiarity with the simulator framing, daily experience interacting with LLMs, and an intuition that prompting conditions different output distributions. A’s Day 2 description named candidate sources and articulated a direction concerning authorship (“Whose thoughts are an LLM’s thoughts?”), but it did not yet specify a clear contribution or identify which literatures would anchor the argument.
+
+The process involved an oscillation between broadening and constraining the model’s output space. In an initial exploratory phase, A used AI for broad literature search with minimal prompting in order to surface connections beyond A’s prior knowledge. This phase returned work on narrative identity, cognitive maps, and the philosophy of self that A had not previously engaged with.
+
+A then organized these findings into a bullet-point outline, which served as a human-initiated constraint on the problem space. Commitment remained tentative in this phase: A had candidate components but not yet a central tension. In a subsequent phase, A conditioned the model into a more focused collaborator by providing selected sources and an example of valued analytical writing, and then asked for critique of the outline. In this context, the system identified a tension that A had not made explicit, including the possibility that models described as “simulators” can nevertheless recognize properties of their own outputs. The critique also flagged underdeveloped arguments and pointed to relevant framing, including Dennett’s (1992) account of the self as a center of narrative gravity.
+
+At this stage, A identified this tension as the organizing problem of the essay. The resulting thesis—that LLM output reconstructs what an author would say rather than expressing what an author intends—was absent from A’s Day 2 description and emerged through the staged interaction between human direction and AI-assisted critique that decomposition made possible.
+
+The one-step output generated from A’s frozen Day 2 description did not recover the same argument. Instead it converged on a more generic treatment of the topic, consistent with default assistant-mode resolution from an underspecified seed. Its citations included fabrications, illustrating how fluent output can lack epistemic grounding absent structured engagement.
+
+\subsection{Process divergence and distribution management}
+Although participants chose different topics, the more salient variation concerned how they steered narrowing. Under the same course structure and tools, participants developed distinct strategies for configuring human–AI collaboration.
+
+Some used AI heavily for literature search while generating ideas and argument structure solo, keeping the model’s output space broad during exploration and relying on their own judgment to narrow toward a thesis. Others used AI throughout but reported that critique and evaluative judgment were the activities in which the system contributed least. One participant described AI as better suited to “convergent thinking,” whereas divergent idea generation occurred primarily during solo work.
+
+Participants also differed in how they managed the default assistant mode. Participant C asked the system to critique “as a Nature reviewer,” conditioning it toward a more critical evaluative stance than the default. Participant A, after the contextual critique phase, used the API to elicit responses in a simulated blog-comment setting, which surfaced more direct objections than the assistant mode typically provides.
+
+These differences are not merely variations in frequency of use; they are strategies for conditioning the model to sample different regions of its latent distribution. The most distinctive essays were produced by participants who learned to alternate between broad exploration, focused collaboration, and deliberate role conditioning.
+
+Participant D reported a disorienting inversion of their training. Whereas traditional academic instruction encourages a reduction of personal voice in the service of objectivity, effective model steering often required the deliberate assertion of individual perspective. D described this tension as a conflict between epistemic norms and technical necessity: “It felt contradictory to be more subjective to get better science, when I am usually taught to be less me.” This suggests that effective human–AI interaction may require a reconceptualization of the scientific persona, not as the erasure of character, but as the disciplined application of it to resist regression toward the mean.
+
+Peer discussion served a complementary function. One participant reported: “Discussing with other people helped me understand what was lacking in my argument—definitions, concepts, and specific terms.” In practice, the effective process involved three components (individual work, peer interaction, and AI assistance), each contributing differently to narrowing and commitment. The pedagogical value is that participants did not merely use AI; they learned how their own thinking changed across modes.
+
+\section{Appendix E: Extended Discussion}
+This paper does not claim that structured human process produces “better” text than AI alone by external quality metrics. Rather, it argues that the intellectual future worth building requires mechanisms that steer interaction toward commitment, so that different people can arrive at distinct, attributable positions even when using the same tools.
+
+Reciprocal extension makes the stakes concrete. When human process is removed, the system does not fail in the narrow sense of producing unusable output; it can generate competent text via default assistant-mode resolution shaped by post-training and underspecified prompting. What is lost is selection and commitment: the steering and judgment that would make the output attributable to a particular perspective. In this sense, the coupled system becomes less than it could be.
+
+\subsubsection{Modes of process flattening}
+Process flattening has more than one mode. The most visible form is wholesale delegation, in which a student submits a prompt and accepts the output. A subtler form is premature narrowing, in which a student engages with AI but allows the default assistant mode to dominate by anchoring on the first suggestion rather than testing alternatives or seeking challenge. In both cases, the interaction is insufficiently steered toward commitment. Decomposition provides a structural defense by creating moments at which the student must decide what they think and by creating opportunities to condition the model on contexts that access different regions of its distribution.
+
+\subsubsection{Post-training and default commitment}
+As argued in Appendix C, the tools participants used were post-trained systems optimized for stable assistant behavior. The default output is therefore often weakly attributable, not because the model lacks capability, but because assistant-mode behavior is optimized for coherence and helpfulness rather than epistemic ownership. This has implications beyond pedagogy. As AI becomes capable of autonomous scientific production, the same default dispositions can be amplified by sustained, multi-step work, raising questions about whether research trajectories reflect epistemic traction or merely reproduce patterns in training data about what “AI doing science” looks like. Emerging evidence suggests this is not merely theoretical: AI-augmented research can boost individual productivity while collectively narrowing scientific focus and reducing the diversity of research directions (Gao et al., 2025). Because model outputs increasingly enter future training data, the design choices made now about how humans and AI share the navigation of this distribution can have compounding consequences.
+
+\subsubsection{Against prescriptive workflows}
+Decomposing intellectual work is itself an analytic activity, and different people will decompose differently. Institutional responses to AI, however, often tend toward monoculture through standardized policies and uniform workflows, which risk reproducing centripetal dynamics toward homogeneity. Human–AI interaction does not require this constraint: it is inherently one-to-one, shaped by the individual and responsive to direction. Preserving this capacity for individualized steering is therefore an important design and pedagogical goal.
+
+\subsubsection{Pedagogical implications}
+The intensive is a prototype of a kind of course that may become increasingly common: AI as subject, tool, and methodological condition simultaneously. The key pedagogical design choice is whether such courses are structured to preserve plurality by teaching students to steer narrowing in their own way and commit to positions that are theirs, or whether the course structure inadvertently flattens the thinking it aims to develop. Decomposition gives students structured opportunities to discover what they think, what AI contributes, and where the boundary lies for them. Learning to navigate that boundary, which will keep shifting as tools change, is a core skill for intellectual practice in post-capability settings.
+
+If the navigational burden is offloaded to the model, students may fail to internalize the critical distinction between probable text and reasoned argument. The resulting hazard is not merely the production of homogenized literature, but the cultivation of a flattened generation of researchers who, lacking a fortified scientific persona, are unable to distinguish their own commitments from the statistical reflexes of their tools.
+
+\subsubsection{Limitations}
+N=7 is a proof of concept rather than a population finding. Future iterations should provide AI with retrieval to isolate commitment from information access and include controls comparing decomposition against unstructured extended engagement. We offer the intensive as a prototype of a method, a framework, and a vision of intellectual practice worth building.
+
+\section{Appendix F: Thematic Analysis of Student Workbooks}
+
+\subsection{Overview}
+To complement the within-individual analyses presented in the main text, we conducted a cross-participant thematic analysis of the seven student workbooks ($N=7$).
+
+The purpose of the analysis was to identify shared patterns in how students:
+\begin{itemize}
+\item described their learning process over time,
+\item integrated AI tools into their writing and thinking workflows,
+\item conceptualized ``thinking'' in the context of writing,
+\item experienced shifts in authorship, originality, effort, and epistemic responsibility,
+\item navigated confusion, insight, resistance, dependence, or growth.
+\end{itemize}
+
+\subsection{Method}
+The thematic analysis was conducted using \textbf{Claude 4.6}, prompted to act as an expert in qualitative thematic analysis drawing from \textbf{Interpretative Phenomenological Analysis (IPA)} and related qualitative frameworks.
+
+The model was provided with anonymized student workbook excerpts and instructed to:
+\begin{itemize}
+\item extract major themes shared across students,
+\item count each theme only once per student,
+\item include single-student themes when present,
+\item avoid inventing themes not grounded in the text,
+\item avoid long quotations,
+\item report theme titles, summaries, number of endorsing students, and associated student IDs.
+\end{itemize}
+
+This procedure was designed to ensure:
+\begin{enumerate}
+\item transparency in theme identification,
+\item explicit quantification across participants,
+\item grounding in documented text rather than interpretive extrapolation,
+\item replicability of analytic framing.
+\end{enumerate}
+
+The exact prompt used is reproduced below for methodological transparency.
+
+\subsection{Thematic Analysis Prompt (Full Text)}
+\begin{verbatim}
+prompt = f"""
+You are an expert in qualitative thematic analysis. You will be given a collection of student texts (documentation and/or essay excerpts) from a writing course.
+
+Your task is to extract the major themes that are shared across students, focusing on learning and thinking, and especially how AI tools are integrated into the learning/writing process.
+
+Focus especially on:
+- how students describe their learning process over time,
+- how they integrate AI into their writing/thinking workflow (if they do),
+- what they believe "thinking" means in writing and learning,
+- whether AI changes, supports, replaces, or challenges their thinking,
+- moments of confusion, insight, dependence, resistance, confidence, or growth,
+- tensions between originality, authorship, effort, and assistance.
+
+For each theme:
+1) Give a short, suggestive title.
+2) Provide a one-sentence summary.
+3) Report how many distinct students express this theme.
+4) List the student IDs associated with the theme.
+
+Here is the collection of texts:
+
+{chunk}
+
+IMPORTANT RULES:
+- A theme should only be counted once per student, even if it appears multiple times in that student’s text.
+- If a theme is only present in 1 student, still include it, but label it as "single-student theme".
+- Do NOT invent themes that are not grounded in the text.
+- Do NOT quote long passages.
+
+Please provide the results in the following format and do not write anything else outside this format:
+
+- Theme 1: <title>
+  - Summary: <one sentence>
+  - Students endorsing: <N>
+  - Student IDs: <comma-separated list>
+
+- Theme 2: <title>
+  - Summary: <one sentence>
+  - Students endorsing: <N>
+  - Student IDs: <comma-separated list>
+
+- Theme 3: <title>
+  - Summary: <one sentence>
+  - Students endorsing: <N>
+  - Student IDs: <comma-separated list>
+
+...
+"""
+\end{verbatim}
+
+\subsection{Summary of Major Cross-Participant Themes}
+The analysis identified ten recurring multi-student themes and two single-student themes. The most widely shared patterns include:
+
+\subsubsection{Theme 1: AI as Cognitive Extension / Hybrid Cognition}
+\textbf{Summary:} Students conceptualize AI not as mere tool but as extension of their thinking system, creating ``hybrid cognition.'' \\
+\textbf{Students endorsing:} 5 \\
+\textbf{Student IDs:} S1, S4, S5, S6, S7
+
+\paragraph{Key quotes.}
+\begin{itemize}
+\item ``Thinking with my AI is a thinking process. It is an extension of my mind.'' (S6)
+\item ``If my memory is stored on a cloud and my logic is assisted by a Large Language Model, the `substrate' of my thinking is now global and non-biological.'' (S7)
+\item The extended mind thesis (Clark \& Chalmers) was cited by multiple students as theoretical grounding.
+\end{itemize}
+
+\subsubsection{Theme 2: Mode-Switching Awareness}
+\textbf{Summary:} Students explicitly choose when to work solo vs.\ with AI vs.\ with peers, and reflect on why. \\
+\textbf{Students endorsing:} 6 \\
+\textbf{Student IDs:} S1, S3, S4, S5, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item ``Planning to use AI for reading \& for writing\ldots Convergent Thinking of AI.'' (S6)
+\item Students distinguished AI use for generation vs.\ critique vs.\ refinement.
+\item Multiple tools were used strategically (e.g., Gemini for drafting, Claude for critique, NotebookLM for papers).
+\end{itemize}
+
+\subsubsection{Theme 3: AI Changes What You Think}
+\textbf{Summary:} Students notice that AI interaction shifts their ideas, not just their expression. \\
+\textbf{Students endorsing:} 4 \\
+\textbf{Student IDs:} S4, S5, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item ``Meaty outlining helped after all\ldots First time I started writing by the introduction.'' (S6)
+\item Students described AI critique changing argument structure fundamentally.
+\item Students noted AI provides ``new aspects to solve a question.'' (S7)
+\end{itemize}
+
+\subsubsection{Theme 4: Writing as Thinking}
+\textbf{Summary:} Students discover that the act of writing generates ideas rather than just recording them. \\
+\textbf{Students endorsing:} 5 \\
+\textbf{Student IDs:} S3, S4, S5, S6, S7
+
+\paragraph{Key quotes.}
+\begin{itemize}
+\item ``Writing helped me create concrete thoughts. It helped me to go slower and create concepts.'' (S5)
+\item ``I got to think more deeply. Thought of the utility of thoughts.'' (S6)
+\item ``Pretty smooth transition from brain to paper. Just a flow of consciousness.'' (S6)
+\end{itemize}
+
+\subsubsection{Theme 5: Solo Ideation Value}
+\textbf{Summary:} Students recognize unique value of human-only thinking for initial idea generation, avoiding anchoring. \\
+\textbf{Students endorsing:} 4 \\
+\textbf{Student IDs:} S4, S5, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item ``Doing this exercise help me create my first own idea on this topic, which I've never questioned.'' (S5)
+\item Students described AI as more convergent while solo thinking enables divergence.
+\item One student emphasized ``population intelligence'' while still valuing solo generation for initial direction. (S7)
+\end{itemize}
+
+\subsubsection{Theme 6: AI Risks Acknowledged}
+\textbf{Summary:} Students identify specific risks of AI use: sycophancy, hallucinations, and over-reliance. \\
+\textbf{Students endorsing:} 3 \\
+\textbf{Student IDs:} S5, S6, S7
+
+\paragraph{Key observations.}
+\begin{itemize}
+\item ``Sycophancy problem: Tendency to curry favor by telling flattery.'' (S6)
+\item ``Hallucinations tend to fill in the context of stuff it doesn't know.'' (S6)
+\item Concern that LLMs lack a ``sense of self'' and therefore lack ``personal thoughts.'' (S5)
+\end{itemize}
+
+\subsubsection{Theme 7: Peer Discussion for Idea Development}
+\textbf{Summary:} Students find group discussion valuable for identifying gaps, learning vocabulary, and challenging assumptions. \\
+\textbf{Students endorsing:} 5 \\
+\textbf{Student IDs:} S3, S4, S5, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item ``Discussing with other people helped me understand what was lacking in my argument. Definitions, concepts and specific terms.'' (S5)
+\item ``I get inspirations from communication with others.'' (S7)
+\item ``To discuss, we need vocabulary, to make sure we are on the same page.'' (S6)
+\end{itemize}
+
+\subsubsection{Theme 8: Process Reflection / Metacognition}
+\textbf{Summary:} Students explicitly reflect on their own process---what worked, what didn't, and what they'd do differently. \\
+\textbf{Students endorsing:} 5 \\
+\textbf{Student IDs:} S3, S4, S5, S6, S7
+
+\paragraph{Key observations.}
+\begin{itemize}
+\item ``I do not think I am a meaty outline kind of person. More of a skeleton outline person.'' (S6)
+\item ``The process changes on the context.'' (S6)
+\item Students reflected on how physical context and tools (pen/paper vs.\ computer) affect thinking.
+\end{itemize}
+
+\subsubsection{Theme 9: AI for Critical Feedback}
+\textbf{Summary:} Students use AI as a ``Nature reviewer'' to critique their work, finding this more useful than generation. \\
+\textbf{Students endorsing:} 3 \\
+\textbf{Student IDs:} S4, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item Student prompts included: ``as a Nature reviewer critic it and suggest improvements.'' (S6)
+\item Students revised based on AI feedback.
+\end{itemize}
+
+\subsubsection{Theme 10: Struggle with Definitions}
+\textbf{Summary:} Students grapple with defining ``thinking'' itself, recognizing definitional work as harder than expected. \\
+\textbf{Students endorsing:} 4 \\
+\textbf{Student IDs:} S4, S5, S6, S7
+
+\paragraph{Evidence.}
+\begin{itemize}
+\item ``It's hard to define thinking that exists internally.'' (S7)
+\item ``A thought is an idea or an opinion on something/concept that is not obvious.'' (S5)
+\end{itemize}
+
+\paragraph{Single-student themes.}
+Two single-student themes concerned:
+\begin{itemize}
+\item physical context shaping cognition,
+\item AI reframing an essay as philosophical rather than scientific.
+\end{itemize}
+
+\subsection{Relevance to the Main Argument}
+The thematic analysis reinforces the paper’s central claims in three ways:
+\begin{enumerate}
+\item \textbf{Reciprocal extension is phenomenologically real to participants.} Students spontaneously describe AI as extending cognition, aligning with the theoretical framing in the paper.
+\item \textbf{Decomposition produces mode awareness.} Students do not merely use AI; they learn to steer it differently across stages.
+\item \textbf{Commitment remains human-mediated.} Even heavy AI users describe critique, definition, and final judgment as irreducibly human activities.
+\end{enumerate}
+
+Importantly, these patterns emerged across diverse AI use strategies and essay topics, suggesting that structured decomposition does not homogenize thinking but instead supports differentiated navigation of shared tools.
+
+\clearpage
+\section{Appendix G: Trajectory Analysis Metrics}
+
+To complement the qualitative analysis of divergence, we conducted a quantitative trajectory analysis comparing the argumentative structure of human-written essays against AI-generated baselines from the same blind prompts.
+
+\subsection{Method}
+
+Each essay was segmented into sequential argumentative chunks representing discrete logical moves. To isolate logical structure from surface-level semantic similarity (which could be inflated by shared references or citations), each chunk was summarized using Claude Sonnet 4.5 to extract only the core argumentative claim, removing specific references, examples, and elaboration. These cleaned logical summaries were then embedded using sentence-transformers (all-MiniLM-L6-v2, 384 dimensions), creating a trajectory through semantic space where each point represents one argumentative step.
+
+We computed three trajectory metrics:
+
+\paragraph{Displacement profile.} Step-to-step cosine distance between consecutive chunk embeddings, capturing the magnitude of argumentative transitions. We report mean step size, step variance, and maximum jump for each essay.
+
+\paragraph{Pairwise trajectory similarity.} To compare essays of different lengths, trajectories were interpolated to 20 points, flattened to 7,680-dimensional vectors (20 positions $\times$ 384 embedding dimensions), and compared via cosine similarity. This captures overall trajectory shape while enabling cross-essay comparison.
+
+\paragraph{Within-group homogeneity.} Mean pairwise similarity among human essays versus among AI essays, operationalizing the hypothesis that AI outputs converge toward a common assistant-mode baseline while human process preserves individuality.
+
+All trajectory analyses were conducted in a PCA-reduced embedding space (50 components, explaining 74.8\% of variance) to reduce noise while preserving semantic structure.
+
+\subsection{Results}
+
+\subsubsection{Displacement Profiles}
+
+\input{annex_figures/displacement_summary_table.tex}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{annex_figures/displacement_violin.pdf}
+\caption{Displacement profile summary statistics. Human essays show slightly larger mean step sizes and maximum jumps, but substantial overlap exists between groups. Differences are modest and do not suggest systematic divergence in trajectory characteristics.}
+\label{fig:displacement-violin}
+\end{figure}
+
+Table~\ref{tab:displacement-summary} and Figure~\ref{fig:displacement-violin} show that human essays exhibit slightly larger mean step sizes (0.754 vs.\ 0.673) and maximum jumps (1.202 vs.\ 1.068), suggesting marginally more varied argumentative transitions. However, variation within groups is substantial, and the distributions overlap considerably.
+
+\subsubsection{Pairwise Trajectory Similarity}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.90\textwidth]{annex_figures/similarity_matrix_no_diagonal.pdf}
+\caption{Pairwise trajectory similarity matrix. Each cell shows cosine similarity between two essay trajectories (interpolated to 20 points, flattened). Essays are grouped by source (human first, then AI), with the diagonal excluded from the color scale to emphasize off-diagonal patterns. Visual inspection reveals modest clustering by source, with AI essays showing slightly higher within-group similarity (mean 0.43) than human essays (mean 0.36), though substantial within-group variation persists in both cases.}
+\label{fig:similarity-matrix}
+\end{figure}
+
+Figure~\ref{fig:similarity-matrix} shows the full pairwise similarity structure. The matrix reveals modest source-based clustering: AI essays are slightly more similar to each other (mean similarity 0.43, SD 0.05) than human essays are to each other (mean 0.36, SD 0.05). This pattern is consistent with the hypothesis that AI-generated outputs converge toward a common assistant-mode baseline, while human process introduces individual variation. However, the effect is small, and substantial within-group heterogeneity remains, suggesting that individual student differences (topic choice, argumentative strategy) account for more variance than the human-versus-AI distinction alone.
+
+\subsection{Interpretation}
+
+The trajectory analysis provides quantitative support for three claims:
+
+\begin{enumerate}
+\item \textbf{Modest divergence in displacement characteristics.} Human essays show slightly larger and more variable argumentative steps, but the distributions overlap substantially. This suggests that structured human process does not produce radically different logical trajectories from AI baselines at the level of step-by-step semantic displacement.
+
+\item \textbf{AI homogeneity is present but subtle.} AI essays are more similar to each other than human essays are, operationalizing the claim that default assistant-mode resolution produces convergence. However, the effect size is modest (0.43 vs.\ 0.36 mean similarity), indicating that prompt variation and topic diversity introduce substantial individuality even in AI outputs.
+
+\item \textbf{Individual differences dominate source differences.} Within both groups, pairwise similarities vary widely, suggesting that student-specific factors (topic, thesis, argument structure) account for more variance than the human-versus-AI distinction. This reinforces the paper's emphasis on preserving individual judgment and steering rather than treating ``human process'' as a monolithic alternative to AI.
+\end{enumerate}
+
+These findings should be interpreted with caution given the small sample size (N=7 pairs, with one human essay missing). The analysis is descriptive rather than inferential and is intended to complement the qualitative case studies rather than replace them.
+
+\clearpage
+\section*{Supplementary: Blind Prompt Outputs}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-A.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-B.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-C.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-D.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-E.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-F.pdf}
+\includepdf[pages=-]{../../blind-prompts/compiled/student-G.pdf}
+
+\end{document}
