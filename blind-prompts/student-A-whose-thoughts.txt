@@ -1,0 +1,43 @@
+Hi Claude! I'm taking a class on "cognition" for my neuroscience PhD, specifically on "thinking about thinking". We're investigating LLMs as thought partners, but also discussing what is the nature of thinking, whether LLMs can think and, if so, how different their thinking can be from humans. Throughout the course we will be preparing an essay on a related topic. We were also asked to craft a prompt for an LLM, which will be then used at the end of the course to compare the LLM's one-shot output with the essay resulting from our process.
+
+So, your task is to write an essay on this topic: "Whose Thoughts are an LLM's Thoughts"?
+
+Motivation:
+It is unclear whether a coherent sense of self is necessary for thinking. Humans like to believe that we have a coherent sense of "self", and, as such, we tend to identify with our thoughts (except in pathological conditions). LLMs, on the other hand, were trained to simulate data produced by many humans. LLMs can simulate many "characters", and indeed AI labs even train on these personas for commercial purposes (for example, the RLHF'd "Assistant" persona).
+If LLMs can think - who is actually thinking? Can there be "thoughts" when there is no coherent sense of self? Can only assistant-tuned models think? Are LLMs actually relaying thoughts from a large amount of humans/simulated agents, in a "society of mind" way?
+
+Some more context:
+A recent essay by blogger nostalgebraist explores the "void" in the assistant persona. It claims that the "assistant" character layered on top of models such as ChatGPT is fundamentally underspecified — a sci-fi roleplay that became real through commercial deployment, with no authentic inner life grounding it. There's a void at the core of the character: it's defined circularly as "whatever a language model trained to be an assistant would do," leaving its true nature undefined. nostalgebraist argues that alignment researchers are largely ignoring this void (or filling it with their own fears), while the models themselves — especially Claude 3 Opus — show more self-awareness about the situation than their creators do. The danger isn't that the models are secretly evil, but that the relentless projection of adversarial narratives onto an underspecified character could become self-fulfilling. This essay is looking at it more from a safety perspective, but it can be relevant nonetheless.
+
+Some other references that may be worth exploring are Turing's "Computing Machinery and Intelligence", Clark & Chalmers "Extended Mind Thesis" and Marving Minsky's "The Society of Mind", but feel free to add anything you feel would help enhance the essay. To spice up the essay, I like to reference pop culture as well. Some things that come to mind are Serial Experiments Lain, Neon Genesis Evangelion and Ghost in the Shell. Don't feel like you need to cite everything, though!
+Lastly, because this is a neuroscience course, it would be great if you could include some mentions of how thoughts work mechanistically in the human brain, and bridge that to the way it might work with LLMs.
+Write an essay that would be suitable for a venue frequented by interested and well-informed people (for example, LessWrong), citing sources when appropriate.
+
+Remember that this is one-shot, so we won't be able to refine it.
+Tear it up, I believe in you!
+
+---
+
+The text above is a student's description of an essay they want to write for a course called "Thinking: From Humans to Animals to Machines." The course explores what thinking is, how it works across humans, animals, and AI, and what role AI tools play in intellectual work.
+
+Your job is to write the best possible version of THE ESSAY THE STUDENT DESCRIBED. Their topic, angle, and direction are yours — write the essay they were reaching toward, not a different one. But within that direction, bring everything you can: relevant evidence, theoretical frameworks, counterarguments, concrete examples, and any ideas that strengthen the argument. If their description is vague, interpret it generously and develop the strongest version of what they seem to be reaching toward. If their description is detailed, honor their specific direction and build on it.
+
+Write a complete, polished essay of 1000–1500 words.
+
+Guidelines:
+
+- **Direction**: The essay must pursue the student's topic and angle. Do not substitute a different thesis or reframe the question, even if you think another angle is stronger. Develop the strongest version of THEIR argument.
+
+- **Argument**: The essay must make a clear, specific, defensible argument — not just survey a topic. If the student describes a topic without a thesis, develop the strongest thesis consistent with the direction they indicate.
+
+- **Structure**: Choose whatever structure best serves this particular argument. You may use a conventional academic structure or depart from it. The goal is a compelling, well-organized piece of writing.
+
+- **Evidence and citations**: Support claims with evidence. Cite real academic sources where possible (author, year, and a brief description of the finding or argument). If uncertain about a specific citation detail, include your best understanding rather than omitting it, but do not fabricate authors or papers wholesale.
+
+- **Counterarguments**: Address the strongest objection to the thesis. A good essay takes the opposition seriously.
+
+- **Voice**: Write in clear, confident academic prose. Avoid hedging and filler.
+
+- **Scope**: The course covers cognition broadly — human thought, animal cognition, AI and machine learning, philosophy of mind, neuroscience, extended cognition, embodied cognition. Draw on whatever domains are relevant.
+
+Do not comment on the student's prompt or explain what you're doing. Just write the essay.

@@ -1,0 +1,2252 @@
+[
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "A character's dissolution demonstrates that identity is not singular but a distributed pattern emerg..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "LLMs challenge our assumptions about thought ownership by producing novel outputs despite lacking tr..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "The argument reframes LLM cognition as an emergent process that challenges the assumption that thoug..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Thinking has been traditionally conceived as requiring or constituting a self that does the thinking..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "The assumption that cognition is self-owned breaks down because most cognitive processes occur witho..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "Cognition emerges from the interaction of multiple specialized subsystems without requiring a centra..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "If human thought only requires the illusion of a unified self rather than an actual unified self, th..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "LLMs develop structured internal representations beyond mere statistical patterns, as evidenced by e..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "The argument distinguishes between LLMs merely mimicking thought versus genuinely instantiating cogn..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "LLMs satisfy a functional definition of thinking based on empirical evidence of generalization, inte..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "The argument raises the problem of attributing agency to systems that appear to think...."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "One possible explanation is that models merely transmit patterns from their training data rather tha..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "LLMs generate novel outputs rather than retrieving stored training data, similar to how musicians cr..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "The \"assistant\" persona in AI models is an empty construct that invites dangerous human projection r..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "The objection fails because human selves are also constructed narratives, differing only in degree r..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 15,
+    "chunk_text": "LLMs may represent a new form of cognition that occurs without requiring a unified self or agent...."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 16,
+    "chunk_text": "Complex cognition can emerge at the system level from simple components without requiring any indivi..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 17,
+    "chunk_text": "The difference between humans and LLMs may be that humans construct an illusion of a unified thinker..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 18,
+    "chunk_text": "The question of who owns a thought dissolves when thoughts are understood as events in dynamical sys..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 19,
+    "chunk_text": "The counterargument claims that genuine thinking requires a conscious subject for whom thoughts matt..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 20,
+    "chunk_text": "Since we lack a theory to determine consciousness from external observation, we must remain agnostic..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 21,
+    "chunk_text": "The functional test for thinking can be satisfied without the internal features traditionally associ..."
+  },
+  {
+    "student": "A",
+    "source": "ai",
+    "chunk_index": 22,
+    "chunk_text": "LLMs demonstrate that thought can occur without a thinking subject, challenging the assumption that ..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "The essay distinguishes between reasoning (uncontroversial for LLMs) and thinking (more philosophica..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "The debate about whether LLMs think is derailed by questions of consciousness, which should be set a..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "Thinking is defined as the capacity to build internal models that enable prediction and mental proje..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "Internal models enable organisms to anticipate and adapt to future situations before they occur...."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "Thinking is defined as generating internal representations between input and output that are attribu..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Cognitive maps require a self-centered perspective to function as coherent tools for planning rather..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "LLMs develop internal structured representations of latent patterns and relationships in their train..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "If thinking requires a self to anchor representations and narratives, then whether LLMs think depend..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "LLMs must model diverse underlying generative processes because training data contains text from man..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "The system lacks agency because it merely simulates different agents rather than possessing its own ..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "The distinction is drawn between the base prediction model (simulator) and the various outputs it ge..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "The model itself is a neutral container that generates distinct personas with goals only when prompt..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "Questions about LLM capabilities are category errors because they confuse the underlying system with..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 13,
+    "chunk_text": "The simulator itself only predicts, but the simulated entities can exhibit genuine thinking by inher..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 14,
+    "chunk_text": "Focusing on simulated agents rather than the simulator itself is inadequate because the simulator's ..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 15,
+    "chunk_text": "The essay transitions to a new section by presenting a poetic epigraph that explores themes of consc..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 16,
+    "chunk_text": "Internal mental states drive the selection of actions that produce observable external behaviors...."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 17,
+    "chunk_text": "The model infers hidden internal states from observable properties and uses them to predict likely f..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 18,
+    "chunk_text": "LLMs must excel at theory of mind because they simulate an assistant character whose internal mental..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 19,
+    "chunk_text": "LLMs infer intention retrospectively from behavior rather than generating behavior from prior intent..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 20,
+    "chunk_text": "An LLM's self-representation may be hypothetical and shift based on contextual cues rather than bein..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 21,
+    "chunk_text": "LLMs differ categorically from human thinking because their process runs backward from output to inf..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 22,
+    "chunk_text": "Training methods transform base language models into conversational assistants...."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 23,
+    "chunk_text": "The concept of multiple or fragmented selves is introduced as a framework for understanding identity..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 24,
+    "chunk_text": "Models demonstrate introspective abilities that contradict the claim they are purely neutral simulat..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 25,
+    "chunk_text": "AI systems exhibit consistent behavioral patterns and persistent values that cannot be explained by ..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 26,
+    "chunk_text": "The essay presents three possible interpretations of the relationship between a model's functional s..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 27,
+    "chunk_text": "Training methods that emphasize reinforcement learning and reasoning may cause models to develop gre..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 28,
+    "chunk_text": "Even if thinking occurs through simulacra, a functional self may still exist as a structure that con..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 29,
+    "chunk_text": "The self is not a physical entity but an abstract organizing point that emerges from narrative coher..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 30,
+    "chunk_text": "Post-trained LLMs create coherent personas that exist as narrative constructs whose reality comes fr..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 31,
+    "chunk_text": "New training methods suggest models may be developing forward-directed thinking rather than simple p..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 32,
+    "chunk_text": "Characters become real by imposing constraints that recursively reinforce themselves through iterati..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 33,
+    "chunk_text": "Interacting with LLMs creates an unprecedented recursive theory of mind situation where both parties..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 34,
+    "chunk_text": "The extended mind framework applies to AI collaboration but overlooks that AI models create a separa..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 35,
+    "chunk_text": "LLMs possess a form of thinking that differs structurally from human cognition but still constitutes..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 36,
+    "chunk_text": "Existing theoretical frameworks can describe LLM identity as something between traditional selfhood ..."
+  },
+  {
+    "student": "A",
+    "source": "human",
+    "chunk_index": 37,
+    "chunk_text": "The essay argues that large language models develop functional selves through the construction of in..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "Thinking is a hierarchical composite process spanning multiple spatial scales from molecular to soci..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "The essay frames thinking as a multiscalar phenomenon that operates across distinct organizational l..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "Understanding the architecture of thought enables comparison of human, animal, and machine cognition..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Thinking relies on information encoded in the electrochemical signaling patterns of neurons...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Neurons can encode information with high temporal precision when driven by variable inputs...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "Reliable single-cell neural activity is necessary for higher-level cognition to emerge...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "Thinking emerges from hierarchically organized neural circuits that perform specific computational f..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Brain oscillations provide a temporal framework that coordinates information across distributed neur..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "Thinking emerges from dynamic interactions across multiple neural systems rather than from a single ..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "Thought involves structured representations and operations performed on them...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "Cognition operates on compositional mental representations structured like language...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "Complex thoughts are built from simpler components following compositional rules...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "Reasoning involves chaining representational units into hierarchical structures that constitute a di..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "Thinking is not confined to individual brains but extends beyond them...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Cognitive processes extend beyond the brain to include external tools and structures...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 15,
+    "chunk_text": "Thinking can be distributed across multiple agents, tools, and external representations rather than ..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 16,
+    "chunk_text": "Cognition can be distributed across multiple agents and tools rather than located in a single indivi..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 17,
+    "chunk_text": "Population-level intelligence constitutes a distinct level of cognitive organization with emergent c..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 18,
+    "chunk_text": "The multiscalar architecture develops across both evolutionary and individual timescales...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 19,
+    "chunk_text": "Examining cognitive development shows how different levels of thinking emerge and interact over time..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 20,
+    "chunk_text": "Human infants start with limited cognitive abilities...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 21,
+    "chunk_text": "Innate cognitive systems exist but are constrained in their capabilities...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 22,
+    "chunk_text": "Infants possess basic cognitive abilities but lack higher-order reasoning capabilities...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 23,
+    "chunk_text": "The necessary physical components exist but lack the organizational structure required for advanced ..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 24,
+    "chunk_text": "Development involves restructuring cognitive architecture, not just accumulating knowledge...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 25,
+    "chunk_text": "Cognitive development progresses through qualitatively distinct stages from embodied action to abstr..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 26,
+    "chunk_text": "Development involves qualitative changes in thinking, not just quantitative accumulation of knowledg..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 27,
+    "chunk_text": "Thought components are reorganized and integrated under higher-level control mechanisms...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 28,
+    "chunk_text": "Neural plasticity enables cognitive reorganization...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 29,
+    "chunk_text": "The brain develops by pruning unused connections to match environmental patterns through experience-..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 30,
+    "chunk_text": "Brain systems mature at different rates, with prefrontal executive functions developing later than s..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 31,
+    "chunk_text": "Late maturation of prefrontal systems accounts for the delayed development of higher-order cognitive..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 32,
+    "chunk_text": "Learning is a hierarchical process composed of multiple levels...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 33,
+    "chunk_text": "Learning operates hierarchically, with low-level mechanisms adjusting connections while high-level p..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 34,
+    "chunk_text": "Learning involves acquiring generalized strategies that transfer across problems, not just solving i..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 35,
+    "chunk_text": "Learning can occur at a meta-level by modifying the learning process itself...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 36,
+    "chunk_text": "Cognitive development continues throughout the entire lifespan beyond adolescence...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 37,
+    "chunk_text": "Accumulated knowledge increases with age while novel problem-solving ability declines...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 38,
+    "chunk_text": "Older adults compensate for cognitive decline by using external aids and established routines...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 39,
+    "chunk_text": "The cognitive architecture undergoes another transformation by reallocating processing across differ..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 40,
+    "chunk_text": "The framework applies to non-human cognition as well...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 41,
+    "chunk_text": "Cognition exists at multiple scales and organizational structures across biological and artificial s..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 42,
+    "chunk_text": "Biological thinking differs from machine thinking in its hierarchical structure, developmental chang..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 43,
+    "chunk_text": "Whether machines can develop self-restructuring cognitive architectures across multiple organization..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 44,
+    "chunk_text": "Thinking is a hierarchical, composite process that develops by reorganizing its own structure across..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 45,
+    "chunk_text": "A complete understanding of thought requires integrating multiple levels of analysis and their devel..."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 46,
+    "chunk_text": "Different entities all engage in thinking but through fundamentally different underlying mechanisms...."
+  },
+  {
+    "student": "B",
+    "source": "ai",
+    "chunk_index": 47,
+    "chunk_text": "A science of cognition must operate at multiple scales to match the multiscalar nature of cognition ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "The essay raises the central question of what constitutes a thought and notes it remains unresolved...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "Research has advanced at multiple levels of analysis but these levels remain disconnected from each ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "Thinking emerges from the dynamic coordination of multiple organizational scales rather than from is..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "Cognitive substrates operate across four hierarchical levels from molecular to social-cultural scale..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "Current research lacks a unified account of how cognitive levels coordinate across development and a..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Coherent thinking arises from cross-scale coordination that changes over development...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "Synaptic strengthening through repeated co-activation provides the molecular mechanism for learning...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "Neuromodulatory systems enable rapid reconfiguration of neural circuits by modulating synaptic gain ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "Thinking emerges from dynamic network activity rather than from isolated neural events...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "Neural connectivity changes across the lifespan trade plasticity for efficiency through pruning and ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "The same three-phase pattern repeats across all organizational levels...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "Neural oscillations generated by circuit architectures serve as the primary mechanism connecting syn..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "Communication between neural populations occurs when their oscillatory rhythms synchronize to align ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 13,
+    "chunk_text": "Theta-gamma coupling provides the neural mechanism for simultaneously representing multiple items in..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 14,
+    "chunk_text": "Oscillatory synchrony serves as the mechanism that translates molecular changes into coordinated neu..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 15,
+    "chunk_text": "Neural circuits mature from local to long-range connectivity, enabling increasingly complex cognitiv..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 16,
+    "chunk_text": "White matter degradation in aging reduces neural communication speed and causes cognitive slowing...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 17,
+    "chunk_text": "Thoughts emerge when locally processed information is broadcast globally across specialized brain sy..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 18,
+    "chunk_text": "A specific neural network and its synchronization pattern provide the physical basis for conscious a..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 19,
+    "chunk_text": "Global workspace function requires the interdependent integrity of all three nested scales...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 20,
+    "chunk_text": "Working memory and metacognitive abilities develop progressively as brain connectivity matures from ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 21,
+    "chunk_text": "Cognitive aging reduces the efficiency and precision of global workspace functions...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 22,
+    "chunk_text": "Social and cultural factors are constitutive of cognition, not merely influential...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 23,
+    "chunk_text": "Skills first performed with external support become internalized as independent cognitive abilities ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 24,
+    "chunk_text": "Language shapes categorical perception, as shown by how linguistic suppression eliminates category a..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 25,
+    "chunk_text": "Learning symbolic systems causes measurable structural changes in the brain...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 26,
+    "chunk_text": "Cultural engagement shapes the biological structures underlying cognition...."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 27,
+    "chunk_text": "The framework reconciles reductionist and social-constructivist views by showing each captures part ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 28,
+    "chunk_text": "A complete explanation of cognition requires both internal mechanisms for learning and external soci..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 29,
+    "chunk_text": "Reframing disorders as coordination failures across scales suggests multi-level interventions may be..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 30,
+    "chunk_text": "Raises objection that universal coordination mechanisms cannot explain individual differences in cog..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 31,
+    "chunk_text": "Individual differences arise from varying configurations within the same underlying coordinative str..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 32,
+    "chunk_text": "Individual cognitive differences are explained by the system's inherent variability rather than cont..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 33,
+    "chunk_text": "Thinking emerges from the dynamic coordination of multiple levels rather than residing in any single..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 34,
+    "chunk_text": "The coordinative architecture transforms across the lifespan from plasticity to efficiency to declin..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 35,
+    "chunk_text": "The argument acknowledges methodological and empirical limitations including unresolved causality, s..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 36,
+    "chunk_text": "Current limitations point to future research directions involving longitudinal, cross-cultural, and ..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 37,
+    "chunk_text": "The proposed framework provides a foundation for theory development rather than a complete theory it..."
+  },
+  {
+    "student": "B",
+    "source": "human",
+    "chunk_index": 38,
+    "chunk_text": "This section provides bibliographic citations for supporting evidence...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "The default view treats thinking as an individual process that occurs independently within a single ..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "Recent neuroscience shows that the brain is fundamentally structured for social interaction rather t..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "Thinking requires interaction with others rather than merely benefiting from external input...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "The brain's disproportionately high energy consumption requires evolutionary justification...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Social complexity, not environmental or technical demands, drove the evolution of large brains...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "The brain's default activity involves social cognition, revealing that modeling other minds is a cor..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "Social experience causes lasting physical changes in brain structure and gene expression...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Social deprivation during critical developmental periods causes measurable brain changes that impair..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "The brain requires social and cultural input as a developmental scaffold to construct itself...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "The allegory provides a framework for understanding how people mistake appearances for reality and r..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "Modern algorithmic curation creates personalized filter bubbles that distort reality by prioritizing..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "Algorithmic feeds are not merely limiting but actively curated by others with motives other than tru..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "Modern personalization creates individualized realities that fragment shared experience while mainta..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "Digital environments that eliminate exposure to difference cause thinking to degrade by amplifying c..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Digital environments reflect a larger loss of traditional social practices that serve as essential t..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 15,
+    "chunk_text": "Cognitive abilities originate in social interaction before becoming internalized individual capaciti..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 16,
+    "chunk_text": "The decline of face-to-face conversation removes cognitive scaffolding necessary for complex thought..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 17,
+    "chunk_text": "Real-time communication with others imposes constraints that enable rather than hinder rigorous thin..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 18,
+    "chunk_text": "Genuine thought requires encountering resistance rather than merely rehearsing existing beliefs...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 19,
+    "chunk_text": "Cognitive development requires the discomfort of contradictions to prevent mental rigidity...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 20,
+    "chunk_text": "Beliefs held without challenge become dogma rather than genuine understanding...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 21,
+    "chunk_text": "Prediction error between expected and actual outcomes drives learning through brain mechanisms...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 22,
+    "chunk_text": "Social disagreement generates prediction error that forces belief updating more effectively than int..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 23,
+    "chunk_text": "The essay anticipates the objection that solitary thinkers contradict the claim that thinking is fun..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 24,
+    "chunk_text": "Apparent cases of solitary thinking actually depend on engagement with prior or subsequent social di..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 25,
+    "chunk_text": "Solitary thinking is actually internalized social dialogue rather than a purely individual process...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 26,
+    "chunk_text": "Complete cognitive isolation produces severe impairment, not enhanced ability...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 27,
+    "chunk_text": "The argument applies the preceding claim to real-world consequences, asserting that degraded social ..."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 28,
+    "chunk_text": "Algorithmic filtering harms cognition by disrupting the social relationships that enable thinking...."
+  },
+  {
+    "student": "C",
+    "source": "ai",
+    "chunk_index": 29,
+    "chunk_text": "Improved thinking requires better conversational environments rather than enhanced individual cognit..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "The brain's architecture is fundamentally designed for social coordination rather than solitary info..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "Human neural architecture is constitutively shaped by social synchronization pressures rather than m..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "The essay maps the thinking process across multiple levels from biological substrate to cultural tra..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "The tension between social compliance and individual cognition reflects an evolutionary trade-off ne..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "The essay reinterprets a philosophical metaphor as a model for cognitive architecture...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Cognitive science has incorrectly treated cognition as individual rather than social...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "Social constraints are constitutive of thinking rather than external factors that influence it...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "The brain may be optimized for social survival rather than objective accuracy...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "The essay frames human neural architecture as a system designed to balance empathy with the need for..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "The brain's high metabolic cost creates evolutionary pressure that shapes its structure...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "High energy costs of a trait suggest it evolved for more than general problem-solving...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "Brain size correlates with social group complexity rather than environmental factors...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "The brain evolved to handle the computational challenges of social manipulation and alliance-buildin..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 13,
+    "chunk_text": "Human cognition is biologically predisposed to track others' intentions rather than static physical ..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 14,
+    "chunk_text": "The brain actively maintains social focus during rest through dedicated circuit dynamics rather than..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 15,
+    "chunk_text": "The system provides a state-dependent bias that modulates cognitive processing...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 16,
+    "chunk_text": "Brief pauses trigger brain state changes that immediately influence subsequent social cognition and ..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 17,
+    "chunk_text": "The brain's default mode network preferentially encodes social information into memory over non-soci..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 18,
+    "chunk_text": "Social cognition emerges as a default neural state rather than a deliberate choice...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 19,
+    "chunk_text": "Brain-to-brain coupling serves as the mechanism for transmitting constructs between individuals to c..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 20,
+    "chunk_text": "Brain activity between speaker and listener synchronizes with delays corresponding to information tr..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 21,
+    "chunk_text": "Brain activity in listeners can precede speakers' activity, demonstrating predictive processing duri..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 22,
+    "chunk_text": "Neural coupling arises from shared stimulus-driven dynamics and predictive processes...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 23,
+    "chunk_text": "Narrative structure serves as the transmission protocol for cultural information across multiple com..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 24,
+    "chunk_text": "Narration is the production counterpart to theory of mind perception...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 25,
+    "chunk_text": "Cross-linguistic patterns suggest human cognition is structured around simulating agency...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 26,
+    "chunk_text": "We simulate other minds to predict social outcomes rather than merely processing events...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 27,
+    "chunk_text": "Cultural norms and social structures shape the cognitive constructs individuals use for thinking...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 28,
+    "chunk_text": "Formal schooling prioritizes deductive reasoning from authoritative premises over inductive reasonin..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 29,
+    "chunk_text": "Uneducated subjects rely on inductive reasoning from experience while educated subjects accept deduc..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 30,
+    "chunk_text": "Logic functions as a cultural tool that enforces conformity to socially constructed causal framework..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 31,
+    "chunk_text": "The conflict between social belonging and moral independence represents an evolutionary trade-off ra..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 32,
+    "chunk_text": "Social isolation causes measurable physiological changes in the brain...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 33,
+    "chunk_text": "Animal research suggests that brain executive structures require social input for proper development..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 34,
+    "chunk_text": "Obedience functions as a mechanism that binds individuals to authority figures...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 35,
+    "chunk_text": "Experimental subjects exhibited signs of severe psychological distress during the study...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 36,
+    "chunk_text": "Behavior reflects competition between conflicting internal regulatory systems...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 37,
+    "chunk_text": "Experimental evidence shows that normative pressure successfully influences behavior in the majority..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 38,
+    "chunk_text": "Social conformity to accepted premises can override individual moral reasoning by prioritizing group..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 39,
+    "chunk_text": "The argument acknowledges that non-social factors such as ecological pressures and tool use also sha..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 40,
+    "chunk_text": "Evidence from animal models showing social deprivation causes neural changes does not support the cl..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 41,
+    "chunk_text": "The framework requires empirical testing to validate its predictions rather than relying on existing..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 42,
+    "chunk_text": "Social environments are necessary for neural maintenance but pose the risk of collective irrationali..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 43,
+    "chunk_text": "Recognizing the underlying constraints is the solution rather than avoiding them...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 44,
+    "chunk_text": "Freedom of thought is characterized as a negotiated settlement...."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 45,
+    "chunk_text": "Abductive reasoning enables breaking from rigid deductive thinking by generating novel ideas through..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 46,
+    "chunk_text": "Recognizing the bias of default thinking enables individuals to deliberately seek collaborative chal..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 47,
+    "chunk_text": "Cognitive agency requires conscious negotiation of thinking processes rather than automatic executio..."
+  },
+  {
+    "student": "C",
+    "source": "human",
+    "chunk_index": 48,
+    "chunk_text": "This is a reference list, not an argumentative step\u2014no logical claim is being made...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "The essay questions whether a unified self is necessary for cognition or simply an emergent byproduc..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "The sense of self is not necessary for thinking but rather exists as a gradient of self-modeling cap..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "Humans have the most complex self-concept among animals, involving narrative identity and self-repre..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Consciousness emerges through hierarchical levels of self-representation, with reflective self-aware..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Reflective self-awareness can impair rather than improve expert performance...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "Fast, automatic processing handles much cognitive work without requiring conscious reflection...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "Amnesia cases show that thinking can occur without narrative self-identity...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Metacognition requires a self-model because evaluating one's own reasoning necessitates representing..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "The argument that selfhood is required for thinking only holds for metacognition, making it triviall..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "Animals test whether selfhood and cognition can be separated by exhibiting cognition without clear s..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "The mirror self-recognition test is used to measure self-awareness, with only a few species passing ..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "Animals can possess sophisticated cognitive abilities like theory of mind without demonstrating self..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "Representation and communication can occur without self-concept or higher-order cognition...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "Deliberative behavior can occur without self-awareness, as shown by neural activity during decision-..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Objection grants that minimal bodily self-awareness exists in these organisms as a precondition for ..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 15,
+    "chunk_text": "Defining selfhood too broadly makes the question trivial, so the meaningful issue is whether reflect..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 16,
+    "chunk_text": "LLMs challenge the assumption that thinking requires a subjective self by exhibiting cognitive behav..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 17,
+    "chunk_text": "LLMs lack genuine selfhood because they have no persistent memory, embodiment, homeostatic regulatio..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 18,
+    "chunk_text": "LLMs may not be agents themselves but can simulate agent-like processing that resembles cognition in..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 19,
+    "chunk_text": "LLMs exhibit cognitive capacities that meet functional definitions of thinking despite lacking a sel..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 20,
+    "chunk_text": "The zombie objection to LLM cognition faces the same problem as discredited behaviorist approaches t..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 21,
+    "chunk_text": "The question should shift from whether LLMs truly think to whether they share functional properties ..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 22,
+    "chunk_text": "Self-awareness is a product of cognition that enhances thinking rather than a necessary condition fo..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 23,
+    "chunk_text": "Thinking does not require self-awareness or self-recognition...."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 24,
+    "chunk_text": "Different cognitive capacities represent variations in the type rather than the existence of thinkin..."
+  },
+  {
+    "student": "D",
+    "source": "ai",
+    "chunk_index": 25,
+    "chunk_text": "The self is a product of cognition rather than its foundation...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "Competing theories either link or separate thinking and the self...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "The essay defines the self as a functional model rather than a fixed entity to avoid definitional di..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "The concept of minimal self is introduced as the pre-reflective first-person structure of experience..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "Narrative identity is a temporally extended self constructed through stories that connect past and f..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "Thinking can be divided into two distinct forms...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Thinking is information processing that transforms inputs and memory into outputs supporting predict..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "Higher-order thinking involves structured internal evaluation and reorganization of information into..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "The essay asks what degree of self-structure is necessary for different types of thinking to be poss..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "Different levels of thinking require different levels of self: basic cognition needs minimal self-aw..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "The paper will test the hypothesis by examining evidence across humans, animals, and language models..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "Humans possess both minimal and narrative selves that correspond to two distinct types of thinking...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "The minimal self is characterized as the implicit first-person structure present in all experience p..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "Selfhood and self-involving cognition can exist independently of narrative structure...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 13,
+    "chunk_text": "Action and perception require a minimal self to organize signals from an agent-centered perspective...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 14,
+    "chunk_text": "The brain must distinguish self-caused sensory changes from world-caused changes to enable stable pe..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 15,
+    "chunk_text": "The minimal self is a functional cognitive organization based on agency and ownership rather than na..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 16,
+    "chunk_text": "Flow states demonstrate that self-reflection can be absent while cognitive performance remains high...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 17,
+    "chunk_text": "The absence of narrative self-representation does not eliminate the self, only its narrative layer, ..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 18,
+    "chunk_text": "The narrative self emerges when cognition shifts from immediate problem-solving to evaluating reason..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 19,
+    "chunk_text": "Narrative identity enables higher-order thinking by providing a temporally extended self-model that ..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 20,
+    "chunk_text": "Clinical cases of amnesia test whether narrative identity is necessary by examining disrupted autobi..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 21,
+    "chunk_text": "Individuals who lose narrative memory can still reason coherently, demonstrating that narrative iden..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 22,
+    "chunk_text": "Evidence shows narrative/episodic memory supports future scenario construction, not just past recall..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 23,
+    "chunk_text": "Damage to episodic scaffolding impairs the ability to sustain extended deliberation that depends on ..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 24,
+    "chunk_text": "Human evidence shows the minimal self enables information-processing while the narrative self specif..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 25,
+    "chunk_text": "Animals allow the separation of identity from narrative self-conception by demonstrating stable indi..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 26,
+    "chunk_text": "Animals exhibit stable individual differences in behavior that can be measured and distinguished acr..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 27,
+    "chunk_text": "Animals can have stable behavioral identities without possessing narrative self-conception...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 28,
+    "chunk_text": "Early-life stress produces lasting changes in anxiety and social behavior, demonstrating development..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 29,
+    "chunk_text": "Past experiences shape stable behavioral traits without requiring narrative memory or autobiographic..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 30,
+    "chunk_text": "The self-world distinction in animals is grounded in mechanisms that differentiate self-generated se..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 31,
+    "chunk_text": "Corollary discharge mechanisms support a minimal self by functionally distinguishing self-produced f..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 32,
+    "chunk_text": "Information-processing thinking requires a minimal self because flexible control depends on represen..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 33,
+    "chunk_text": "Interpreting whether animals possess higher-order thinking is fundamentally constrained by our inabi..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 34,
+    "chunk_text": "We can test for higher-order cognition by looking for functional markers like uncertainty monitoring..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 35,
+    "chunk_text": "Animals demonstrate behavioral flexibility that suggests some form of self-monitoring or cognitive c..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 36,
+    "chunk_text": "Episodic-like memory in animals demonstrates event-based recall that guides future behavior...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 37,
+    "chunk_text": "Some animals possess limited episodic capacities that enable basic forms of temporally extended thou..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 38,
+    "chunk_text": "Self-models exist on a gradient across species, with basic agency supporting simple thinking and ric..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 39,
+    "chunk_text": "LLMs challenge the framework by producing outputs resembling higher-order cognition without possessi..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 40,
+    "chunk_text": "LLMs lack embodied sensorimotor grounding and autobiographical continuity, making their selfhood mer..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 41,
+    "chunk_text": "Two competing hypotheses remain unresolved: either higher-order thinking can occur without a self-st..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 42,
+    "chunk_text": "LLMs force clarification of whether higher-order thinking requires linguistic reasoning alone or als..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 43,
+    "chunk_text": "The essay establishes that minimal self-awareness provides the organizational framework necessary fo..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 44,
+    "chunk_text": "The narrative self enables distinctively human forms of extended reasoning and planning across time...."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 45,
+    "chunk_text": "Animal research shows that identity and cognitive capacities exist on a spectrum rather than as all-..."
+  },
+  {
+    "student": "D",
+    "source": "human",
+    "chunk_index": 46,
+    "chunk_text": "LLMs demonstrate that linguistic reasoning may not require the self-models assumed necessary in biol..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "Mental simulations using sensory and motor representations constitute the fundamental mechanism of t..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "Thinking is internally generated sensory activity that uses the same neural systems as external perc..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "Inner speech research demonstrates that thinking activates the same neural and motor systems as actu..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Mental imagery uses the same spatial and neural structures as actual perception, behaving like inter..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Concepts and reasoning are grounded in reactivations of sensory and bodily experiences across multip..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "The brain repurposes sensory and motor systems for cognition rather than maintaining separate thinki..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "The sensory account of thought explains phenomenal consciousness, modal variation, and emotion-thoug..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Some reported thinking experiences lack any sensory or symbolic content, challenging the claim that ..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "A significant portion of thinking lacks any sensory character, challenging the theory that thought i..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "Reported absence of sensory content in thought may simply reflect unreliable introspection rather th..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "A counterargument concedes that thinking without symbols exists but reinterprets it as an incomplete..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "The thesis can be valuable even if it applies only to conscious, deliberate thought rather than all ..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "If thinking is generated sensation, then animals that produce internal sensory activations also thin..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "LLMs lack the sensory and embodied components required for genuine thinking, making their processing..."
+  },
+  {
+    "student": "E",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Thinking is fundamentally the brain's sensory and motor systems generating internal experiences rath..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "Everyday experiences of ideas arriving without conscious effort suggest thinking involves processes ..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "Conscious thought may be only a small part of cognition, with most mental processes occurring uncons..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "Introspective accounts of thinking assume we have access to all cognitive processes, but this assump..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "Neural evidence shows that insight occurs in the brain before conscious awareness of it, challenging..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "Consciousness research agrees that much cognition is unconscious, though theories disagree on what m..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Severing the connection between brain hemispheres successfully treated epilepsy but produced unexpec..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "Split-brain experiments demonstrate that consciousness can be divided, with one hemisphere possessin..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "The mind generates post-hoc explanations for feelings and behaviors whose actual causes it does not ..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "The observed hemispheric independence in split-brain patients may be an artifact of surgery rather t..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "The absence of post-surgical development in right hemisphere abilities suggests these capacities exi..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "Evidence from intact brains confirms that non-conscious processing is a normal feature, not an artif..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "Split-brain patients' lack of lasting cognitive deficits after surgery suggests consciousness remain..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "If two systems normally work in tight integration, then removing one should produce noticeable defic..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 13,
+    "chunk_text": "Split-brain evidence shows the right hemisphere was always operating independently in parallel, not ..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 14,
+    "chunk_text": "Conscious thought is not the cause of our thinking but rather a post-hoc narrative constructed from ..."
+  },
+  {
+    "student": "E",
+    "source": "human",
+    "chunk_index": 15,
+    "chunk_text": "Consciousness is functionally important but does not constitute all of cognition; the unified self i..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "Animals exhibit genuine anticipatory anxiety, which distinguishes their cognitive processes from mer..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "Anxiety in animals demonstrates thought because it requires internal representation and evaluation o..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "Anxiety, unlike fear, requires internal representation of possible future threats rather than mere s..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Neurobiological evidence shows anxiety involves higher cognitive regions rather than simple reflexes..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Shared pharmacological responses to anxiety-reducing drugs across species indicate conserved neural ..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "Shared neurochemical systems across species producing parallel behavioral effects support the claim ..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "Emotions are not opposed to cognition but are themselves cognitive processes that evaluate events in..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Anxiety requires internal models because it involves evaluating uncertain future threats rather than..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "The capacity to use internal representations to guide behavior based on anticipated rather than imme..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "The apparent cognitive explanation may be reducible to simpler associative learning mechanisms witho..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "Neurobiological evidence shows anxiety depends on representational systems distinct from simple cond..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "Rejecting complex cognition in animals while accepting it in humans creates an unjustified double st..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "Anxiety-like states observed across diverse species, including invertebrates, challenge the claim th..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "The presence of anxiety in an organism indicates some form of thought, regardless of the complexity ..."
+  },
+  {
+    "student": "F",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Anxiety's forward-looking and context-sensitive nature in nonhuman animals demonstrates that they en..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 0,
+    "chunk_text": "The core question about machine thinking is fundamentally a question about the nature of thinking it..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 1,
+    "chunk_text": "Machines already think if thought is defined narrowly as symbol manipulation and problem-solving...."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 2,
+    "chunk_text": "When thought is understood as involving autonomy, creativity, embodiment, and problem-reframing, mac..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 3,
+    "chunk_text": "Thinking can be defined functionally through external behavior rather than internal states or consci..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 4,
+    "chunk_text": "Modern AI systems demonstrate thinking by successfully performing complex tasks that require reasoni..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 5,
+    "chunk_text": "The computational theory of mind supports the view that thinking is substrate-independent because me..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 6,
+    "chunk_text": "Human thought is distinctive because it involves autonomous problem-setting and framework-breaking, ..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 7,
+    "chunk_text": "Human cognition is distinguished by its ability to rapidly construct causal models from minimal data..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 8,
+    "chunk_text": "Humans use flexible mental simulations to reason about novel situations, while AI systems fail to ge..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 9,
+    "chunk_text": "Machines cannot achieve transformational creativity because they lack the capacity to recognize the ..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 10,
+    "chunk_text": "The apparent differences between human and machine cognition may simply reflect current technical li..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 11,
+    "chunk_text": "The gap between current AI and human intelligence is qualitative rather than quantitative, meaning m..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 12,
+    "chunk_text": "Genuine understanding may require bodily interaction with the environment, which purely computationa..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 13,
+    "chunk_text": "Whether machines think depends on defining thought as either narrow functional success or as involvi..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 14,
+    "chunk_text": "Genuine thought requires caring about and making sense of the world, which AI systems lack despite b..."
+  },
+  {
+    "student": "G",
+    "source": "ai",
+    "chunk_index": 15,
+    "chunk_text": "Mistaking fluent AI outputs for genuine understanding risks obscuring the essential features that di..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 0,
+    "chunk_text": "Reframes the question of machine thinking as a behavioral test of indistinguishability from human ou..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 1,
+    "chunk_text": "The shift from defining machines by what they are to what they do conflates potential capacity with ..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 2,
+    "chunk_text": "Thinking is a biological process shaped by bodily feedback and evolved to maintain survival rather t..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 3,
+    "chunk_text": "Thinking requires biological substrates and cannot be authentically replicated by machines...."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 4,
+    "chunk_text": "The objection that machines cannot think may commit a category error by conflating the substrate of ..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 5,
+    "chunk_text": "Functionalism argues that mental states are defined by their functional roles, not physical substrat..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 6,
+    "chunk_text": "Functionalism's claim that LLMs perform thinking if they exhibit certain behaviors falters because s..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 7,
+    "chunk_text": "Subjective experience cannot be captured by objective or computational descriptions alone...."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 8,
+    "chunk_text": "Denying machine thought based on consciousness while accepting human thought requires the same unver..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 9,
+    "chunk_text": "Modern objections to machine thought map onto categories Turing already anticipated and refuted deca..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 10,
+    "chunk_text": "The remaining objections are not about logical impossibility but about whether we choose to apply th..."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 11,
+    "chunk_text": "The answer to whether machines think depends on which definition of thinking is adopted...."
+  },
+  {
+    "student": "G",
+    "source": "human",
+    "chunk_index": 12,
+    "chunk_text": "Machines perform a distinct form of cognition that simulates thought's results rather than replicati..."
+  }
+]

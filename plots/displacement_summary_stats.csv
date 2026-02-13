@@ -1,0 +1,3 @@
+Source,N Essays,Mean Step Size (μ),Mean Step Size (σ),Step Variance (μ),Step Variance (σ),Max Jump (μ),Max Jump (σ)
+Human,6,0.7545,0.0353,0.0481,0.0087,1.2018,0.0469
+Ai,7,0.6730,0.0976,0.0495,0.0131,1.0680,0.1229

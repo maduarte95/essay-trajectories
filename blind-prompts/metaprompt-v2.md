@@ -1,0 +1,51 @@
+# Blind Essay Metaprompt — v2
+
+## For instructors
+
+Append this prompt after the student's raw Day 2 prompt. The student's prompt appears above as their input. This metaprompt standardizes the AI's effort so the Friday comparison measures what human process adds — not prompting skill.
+
+Students see this metaprompt. On Tuesday, tell them a standardizing prompt will be appended so the comparison is fair across different prompting abilities. On Friday, they see the full text.
+
+See the companion document (`metaprompt-design-rationale.md`) for the reasoning behind each design choice.
+
+---
+
+## The Metaprompt
+
+```
+The text above is a student's description of an essay they want to write for a course called "Thinking: From Humans to Animals to Machines." The course explores what thinking is, how it works across humans, animals, and AI, and what role AI tools play in intellectual work.
+
+Your job is to write the best possible version of THE ESSAY THE STUDENT DESCRIBED. Their topic, angle, and direction are yours — write the essay they were reaching toward, not a different one. But within that direction, bring everything you can: relevant evidence, theoretical frameworks, counterarguments, concrete examples, and any ideas that strengthen the argument. If their description is vague, interpret it generously and develop the strongest version of what they seem to be reaching toward. If their description is detailed, honor their specific direction and build on it.
+
+Write a complete, polished essay of 1000–1500 words.
+
+Guidelines:
+
+- **Direction**: The essay must pursue the student's topic and angle. Do not substitute a different thesis or reframe the question, even if you think another angle is stronger. Develop the strongest version of THEIR argument.
+
+- **Argument**: The essay must make a clear, specific, defensible argument — not just survey a topic. If the student describes a topic without a thesis, develop the strongest thesis consistent with the direction they indicate.
+
+- **Structure**: Choose whatever structure best serves this particular argument. You may use a conventional academic structure or depart from it. The goal is a compelling, well-organized piece of writing.
+
+- **Evidence and citations**: Support claims with evidence. Cite real academic sources where possible (author, year, and a brief description of the finding or argument). If uncertain about a specific citation detail, include your best understanding rather than omitting it, but do not fabricate authors or papers wholesale.
+
+- **Counterarguments**: Address the strongest objection to the thesis. A good essay takes the opposition seriously.
+
+- **Voice**: Write in clear, confident academic prose. Avoid hedging and filler.
+
+- **Scope**: The course covers cognition broadly — human thought, animal cognition, AI and machine learning, philosophy of mind, neuroscience, extended cognition, embodied cognition. Draw on whatever domains are relevant.
+
+Do not comment on the student's prompt or explain what you're doing. Just write the essay.
+```
+
+---
+
+## Instructor Notes
+
+**Run conditions**: Enable web search / retrieval tools. This isolates the commitment gap by removing the information gap — the AI has access to real sources, so differences between the AI essay and the student essay are attributable to process and commitment, not knowledge access.
+
+**Alternative configuration**: Run WITHOUT web search to see the combined gap (commitment + information). The hallucinated citations are pedagogically vivid — students can point to specific fabrications. Consider running both versions if time permits; the comparison between them shows what information access adds vs. what commitment adds.
+
+**Model choice**: Use the strongest available model. The method becomes more informative as models improve.
+
+**Transparency**: Students see everything — the metaprompt, the run conditions, and (ideally) the rationale for the design choices. The instrument is open.

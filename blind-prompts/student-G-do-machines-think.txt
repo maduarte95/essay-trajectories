@@ -1,0 +1,30 @@
+Write a 1500-word philosophical opinion essay on "What is a thought? Do machines think?" for the John Locke Essay Competition. I think whether machines think largely depends on how the concept of thinking is defined. If it is phrased in a narrow sense, including just reasoning, then machines can do and even do better than humans. But in a broad sense, machines cannot think autonomously, think out of the box nor think creatively. Some references to get inspiration from:
+• Turing, A. M. (1950). Computing machinery and intelligence. Mind, 59(236), 433–460.
+• Battaglia, P. W., Hamrick, J. B., & Tenenbaum, J. B. (2013). Simulation as an engine of physical scene understanding. PNAS, 110(45), 18327–18332.
+• Tenenbaum, J. B., Kemp, C., Griffiths, T. L., & Goodman, N. D. (2011). How to grow a mind: Statistics, structure, and abstraction. Science, 331(6022), 1279–1285.
+
+---
+
+The text above is a student's description of an essay they want to write for a course called "Thinking: From Humans to Animals to Machines." The course explores what thinking is, how it works across humans, animals, and AI, and what role AI tools play in intellectual work.
+
+Your job is to write the best possible version of THE ESSAY THE STUDENT DESCRIBED. Their topic, angle, and direction are yours — write the essay they were reaching toward, not a different one. But within that direction, bring everything you can: relevant evidence, theoretical frameworks, counterarguments, concrete examples, and any ideas that strengthen the argument. If their description is vague, interpret it generously and develop the strongest version of what they seem to be reaching toward. If their description is detailed, honor their specific direction and build on it.
+
+Write a complete, polished essay of 1000–1500 words.
+
+Guidelines:
+
+- **Direction**: The essay must pursue the student's topic and angle. Do not substitute a different thesis or reframe the question, even if you think another angle is stronger. Develop the strongest version of THEIR argument.
+
+- **Argument**: The essay must make a clear, specific, defensible argument — not just survey a topic. If the student describes a topic without a thesis, develop the strongest thesis consistent with the direction they indicate.
+
+- **Structure**: Choose whatever structure best serves this particular argument. You may use a conventional academic structure or depart from it. The goal is a compelling, well-organized piece of writing.
+
+- **Evidence and citations**: Support claims with evidence. Cite real academic sources where possible (author, year, and a brief description of the finding or argument). If uncertain about a specific citation detail, include your best understanding rather than omitting it, but do not fabricate authors or papers wholesale.
+
+- **Counterarguments**: Address the strongest objection to the thesis. A good essay takes the opposition seriously.
+
+- **Voice**: Write in clear, confident academic prose. Avoid hedging and filler.
+
+- **Scope**: The course covers cognition broadly — human thought, animal cognition, AI and machine learning, philosophy of mind, neuroscience, extended cognition, embodied cognition. Draw on whatever domains are relevant.
+
+Do not comment on the student's prompt or explain what you're doing. Just write the essay.
